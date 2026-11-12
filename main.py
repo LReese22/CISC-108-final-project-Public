@@ -3,7 +3,7 @@ from drafter import *
 
 hide_debug_information()
 set_website_title("Drafter Calculator")
-set_site_information(author = "Lucy Reese", sources = "", planning = "", links = [""])
+set_site_information(author = "Lucy Reese", description = "calculate numbers using add, subtract, multiply, or divide.", sources = "", planning = "", links = [""])
 set_website_framed(False)
 
 @dataclass
