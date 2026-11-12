@@ -40,7 +40,7 @@ def index(state: State) -> Page:
         "Choose an operation:",
         SelectBox("operation",
                   ["Add", "Subtract", "Multiply", "Divide"],
-                  state.title),
+                  "Add"),
 
         Button("Calculate", "calculate"),
 
@@ -151,9 +151,9 @@ def complex_math(state: State) -> Page:
                   "Add"),
 
         Button("Calculate", "complex_calculate"),
-
-        Button("Back to Calculator", "index"),
-        Button("View History", "history")
+        
+        Link("Back to Calculator", "index"),
+        Link("View History", "history")
     ])
 
 
