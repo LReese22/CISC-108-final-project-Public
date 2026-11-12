@@ -8,6 +8,10 @@ from dataclasses import dataclass
 from drafter import *
 
 
+from dataclasses import dataclass
+from drafter import *
+
+
 @dataclass
 class History:
     nums: list[float]
@@ -92,9 +96,9 @@ def calculate(state: State, first_number: float,
     )
 
     if state.counter % 20 == 0:
-    return surprise(state)
-else:
-    return index(state)
+        return surprise(state)
+    else:
+        return index(state)
 
 @route
 def history(state: State) -> Page:
@@ -196,9 +200,9 @@ def complex_calculate(state: State, first_number: float,
     )
 
     if state.counter % 20 == 0:
-    return surprise(state)
-else:
-    return Page(state, [
+        return surprise(state)
+    else:
+        return Page(state, [
         Header("Complex Math Result"),
         "Operation: " + state.title,
         "Numbers: " + str(first_number) + ", " +
