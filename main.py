@@ -1,16 +1,10 @@
+from dataclasses import dataclass
+from drafter import *
+
 hide_debug_information()
 set_website_title("Drafter Calculator")
 set_site_information(author = "Lucy Reese", sources = "", planning = "", links = [""])
 set_website_framed(False)
-
-
-from dataclasses import dataclass
-from drafter import *
-
-
-from dataclasses import dataclass
-from drafter import *
-
 
 @dataclass
 class History:
