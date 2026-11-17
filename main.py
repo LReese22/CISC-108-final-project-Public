@@ -1,6 +1,8 @@
 from dataclasses import dataclass
 from drafter import *
 
+set_website_style("water")
+
 hide_debug_information()
 set_website_title("Drafter Calculator")
 set_site_information(author = "Lucy Reese", description = "calculate numbers using add, subtract, multiply, or divide.", sources = "", planning = "", links = [""])
