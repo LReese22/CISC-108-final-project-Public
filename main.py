@@ -5,7 +5,7 @@ set_website_style("water")
 
 hide_debug_information()
 set_website_title("Drafter Calculator")
-set_site_information(author = "Lucy Reese", description = "calculate numbers using add, subtract, multiply, or divide.", sources = "", planning = "", links = [""])
+set_site_information(author = "Lucy Reese", description = "calculate numbers using add, subtract, multiply, or divide.", sources = "", planning = ["Copy of CS1 Final Project 1_ Design.docx","website format"], links = ["https://github.com/LReese22/CISC-108-final-project-Public/edit/main/main.py"])
 set_website_framed(False)
 
 @dataclass
